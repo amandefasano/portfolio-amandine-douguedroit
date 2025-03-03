@@ -1,23 +1,5 @@
 [
     {
-        "image": "html-css.webp",
-        "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
-        "alt": "HTML and CSS logos"
-    },
-    {
-        "image": "js.webp",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires",
-        "alt": "Javascript logo"
-    },
-    {
-        "image": "react.webp",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état",
-        "alt": "React logo"
-    },
-    {
         "image": "gestion-de-projet.webp",
         "title": "Gestion de projet",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet",
@@ -34,5 +16,41 @@
         "title": "Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
         "alt": "Illustrative image"
+    },
+    {
+        "image": "logos/cypress.webp",
+        "title": "Cypress",
+        "text": "Automatisation de tests E2E et d'API pour une boutique en ligne",
+        "alt": "Cypress logo"
+    },
+    {
+        "image": "logos/phpUnit.jpg",
+        "title": "PhpUnit",
+        "text": "Tests unitaires et d'intégration",
+        "alt": "PhpUnit logo"
+    },
+    {
+        "image": "logos/panther.jpeg",
+        "title": "Symfony Panther",
+        "text": "Automatisation de tests E2E pour une application de gestion de revenus pour des salons de coiffure",
+        "alt": "Symfony Panther logo"
+    },
+    {
+        "image": "logos/html-css.webp",
+        "title": "HTML - CSS",
+        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
+        "alt": "HTML and CSS logos"
+    },
+    {
+        "image": "logos/js.webp",
+        "title": "javascript",
+        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires",
+        "alt": "Javascript logo"
+    },
+    {
+        "image": "react.webp",
+        "title": "React",
+        "text": "Création d’applications React, création de composants et manipulation de leur état",
+        "alt": "React logo"
     }
 ]
