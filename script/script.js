@@ -123,6 +123,7 @@ function createExperienceFromJSON() {
                     <img class="card-img-top" src="images/${item.image}" style="width:100%" alt="${item.alt}">
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
+                        <h4 class="card-subtitle">${item.subtitle}</h4>
                         <p class="card-text">${html}</p>
                         <div class="text-center">
                             <a href="${item.link}" class="btn btn-success">Lien</a>

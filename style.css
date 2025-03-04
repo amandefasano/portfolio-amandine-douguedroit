@@ -87,7 +87,8 @@
 
 /* experience */
 #experience .row-center {
-    display:grid;
+    display:inline-flex;
+    justify-content: center;
 }
 
 /* portfolio */
