@@ -1,0 +1,9 @@
+[
+    {
+        "image": "logos/prettyData.webp",
+        "title": "Stagiaire Assurance Qualité à PrettyData",
+        "text": "PrettyData est une application de gestion de revenus pour des salons de coiffure :\n - Amélioration des processus d'assurance qualité avec l'implémentation d'un accord de niveau de service (SLA).\n - Automatisation de tests sur les fonctionnalités critiques.\n - Exécution de tests exploratoires sur l'environnement de staging et / ou sur l'environnement de prod après déploiement, à la fréquence déterminée dans le SLA.\n - Rapport et suivi des anomalies.\n - Validation des corrections de bugs.\n - Présentation hebdomadaire de rapports sur la progression de la résolution des bugs ainsi que sur d'autres métriques pertinentes à l'équipe.",
+        "alt": "PrettyData logo",
+        "link": "https://www.prettydata.co/"
+    }
+]

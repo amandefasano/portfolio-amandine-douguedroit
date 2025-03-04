@@ -7,11 +7,11 @@
         "link": "#"
     },
     {
-        "image": "image2.webp",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "alt": "Logo",
-        "link": "#"
+        "image": "projects/eco-soap.jpg",
+        "title": "Eco Bliss Bath",
+        "text": "Eco Bliss Bath est un projet de boutique en ligne de produits de beauté :\n - Automatisation de tests E2E, fonctionnels et d'API avec Cypress.\n - Exécution d'une campagne de test de validation.\n - Rédaction et présentation du bilan de campagne de test",
+        "alt": "Eco Bliss Bath logo",
+        "link": "https://github.com/amandefasano/TesteurLogiciel_Automatisez_des_tests_pour_une_boutique_en_ligne.git"
     },
     {
         "image": "image3.webp",

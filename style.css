@@ -3,6 +3,7 @@
 #about,
 #skills,
 #portfolio,
+#experience,
 #contact {
     margin-top: 4rem;
     padding-top: 4rem;
@@ -10,6 +11,7 @@
 #about h2,
 #skills h2,
 #portfolio h2,
+#experience h2,
 #contact h2 {
     margin-bottom: 3rem;
 }
@@ -77,16 +79,19 @@
     text-align: center;
 }
 .card:hover .skillsIcon {
-    color: #008000;
+    color: #2e0218cc;
 }
 .skillsText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #2e0218cc;
+}
+
+/* experience */
+#experience .row-center {
+    display:grid;
 }
 
 /* portfolio */
-#portfolio p {
-    text-align: center;
-}
+
 
 /* contact */
 .contactColumn {
@@ -95,7 +100,7 @@
     align-items: center;
 }
 .contactColumn i {
-    color: #198754;
+    color: #2e0218cc;
 }
 
 /* footer */
