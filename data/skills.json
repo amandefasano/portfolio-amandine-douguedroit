@@ -9,49 +9,57 @@
         "image": "optimisation-et-debug.webp",
         "title": "Optimisation et debug",
         "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne",
-        "alt": "Metrics image"
+        "alt": "Metrics image",
+        "link": "#"
     },
     {
         "image": "test.webp",
         "title": "Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
-        "alt": "Illustrative image with a chain of boxes"
+        "alt": "Illustrative image with a chain of boxes",
+        "link": "#portfolio"
     },
     {
         "image": "logos/jira.webp",
         "title": "Jira",
-        "text": "Rapport d'anomalies pour le site d'un cabinet d'avocats",
-        "alt": "Jira logo"
+        "text": "Rapport d'anomalies pour un site web d'événementiel",
+        "alt": "Jira logo",
+        "link": "#724"
     },
     {
         "image": "logos/notion.png",
         "title": "Notion",
         "text": "Gestion de projet Agile, création d'un tableau Kanban, et rédaction de user stories",
-        "alt": "Notion logo"
+        "alt": "Notion logo",
+        "link": "#Tom"
     },
     {
         "image": "logos/linear.webp",
         "title": "Linear",
         "text": "Gestion de projet, rapport et suivi d'anomalies",
-        "alt": "Linear logo"
+        "alt": "Linear logo",
+        "link": "#PD"
     },
     {
         "image": "logos/cypress.webp",
         "title": "Cypress",
         "text": "Automatisation de tests E2E et d'API pour une boutique en ligne",
-        "alt": "Cypress logo"
+        "alt": "Cypress logo",
+        "link": "#EBB"
     },
     {
         "image": "logos/phpUnit.jpg",
         "title": "PhpUnit",
         "text": "Tests unitaires et d'intégration",
-        "alt": "PhpUnit logo"
+        "alt": "PhpUnit logo",
+        "link": "#PD"
     },
     {
         "image": "logos/panther.jpeg",
         "title": "Symfony Panther",
         "text": "Automatisation de tests E2E pour une application de gestion de revenus pour des salons de coiffure",
-        "alt": "Symfony Panther logo"
+        "alt": "Symfony Panther logo",
+        "link": "#PD"
     },
     {
         "image": "logos/html-css.webp",
