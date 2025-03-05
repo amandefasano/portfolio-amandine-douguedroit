@@ -127,7 +127,7 @@ function createExperienceFromJSON() {
       // Iterate through the JSON data and create HTML elements
       data.forEach((item, index) => {
         const card = document.createElement("div");
-        card.classList.add("col-lg-4", "mt-4");
+        card.classList.add("col-lg-6", "mt-4");
         let html = item.text;
         if (html.includes("\n")) html = html.replace(/\n/g, "<br>");
         card.innerHTML = `
@@ -137,7 +137,7 @@ function createExperienceFromJSON() {
                         <h3 class="card-title">${item.title}</h3>
                         <h4 class="card-subtitle">${item.subtitle}</h4>
                         <p class="card-text">${html}</p>
-                        <div class="text-center">
+                        <div class="text-center card-link-wrapper">
                             <a href="${item.link}" class="project-link btn btn-success" target="_blank">Lien</a>
                         </div>
                     </div>
@@ -155,6 +155,12 @@ function createExperienceFromJSON() {
         }
       });
     });
+}
+
+function zoomImage() {
+  const image = document.querySelector("#Port img");
+
+  
 }
 
 // Call the functions to execute the code

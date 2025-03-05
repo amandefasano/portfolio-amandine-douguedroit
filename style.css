@@ -117,7 +117,6 @@
 
 /* experience */
 #experience .row-center {
-    display: inline-flex;
     justify-content: center;
 }
 
@@ -125,6 +124,10 @@
     font-size: small;
     text-align: center;
     margin-bottom: 1rem;
+}
+
+#experience .card-link-wrapper {
+    margin-top: 60px;
 }
 
 #experience .project-link {
@@ -137,14 +140,17 @@
     border-color: #26d3ae;
 }
 
+.project-link {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: calc(100% - 2rem);
+}
+
 /* portfolio */
 #portfolio .project-link {
     background-color: #2e0218cc;
     border-color: #2e0218cc;
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    width: 92%;
 }
 
 #portfolio .project-link:hover {
@@ -156,15 +162,21 @@
     height: 31rem;
 }
 
+.card {
+    scroll-margin-top: 200px;
+
+}
+
 /* targetted element */
 .card:target,
 #projects:target {
-    animation: flicker 5s ease-in-out 1;
+    animation: flicker 2.5s linear 1;
 }
 
 @keyframes flicker {
-  0%  { border: 8px solid #cc569b; }
-  100% { border-color: transparent; }
+  0%  { outline: 8px solid #cc569b; }
+  80%  { outline: 8px solid #cc569b; }
+  100% { outline-color: transparent; }
 }
 
 /* contact */
