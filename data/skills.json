@@ -1,37 +1,24 @@
 [
     {
-        "image": "gestion-de-projet.webp",
-        "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnels, planification du projet",
-        "alt": "Illustrative image with boxes"
-    },
-    {
-        "image": "optimisation-et-debug.webp",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne",
-        "alt": "Metrics image",
-        "link": "#"
-    },
-    {
-        "image": "test.webp",
+        "image": "skills/automation-testing.webp",
         "title": "Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
         "alt": "Illustrative image with a chain of boxes",
-        "link": "#portfolio"
+        "link": "#projects"
     },
     {
-        "image": "logos/jira.webp",
-        "title": "Jira",
-        "text": "Rapport d'anomalies pour un site web d'événementiel",
-        "alt": "Jira logo",
-        "link": "#724"
+        "image": "skills/optimization.avif",
+        "title": "Optimisation et debug",
+        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne",
+        "alt": "Metrics image",
+        "link": "#Port"
     },
     {
-        "image": "logos/notion.png",
-        "title": "Notion",
-        "text": "Gestion de projet Agile, création d'un tableau Kanban, et rédaction de user stories",
-        "alt": "Notion logo",
-        "link": "#Tom"
+        "image": "skills/management.jpg",
+        "title": "Gestion de projet",
+        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnels, planification du projet",
+        "alt": "Illustrative image with boxes",
+        "link": "#MMQ"
     },
     {
         "image": "logos/linear.webp",
@@ -41,11 +28,18 @@
         "link": "#PD"
     },
     {
-        "image": "logos/cypress.webp",
-        "title": "Cypress",
-        "text": "Automatisation de tests E2E et d'API pour une boutique en ligne",
-        "alt": "Cypress logo",
-        "link": "#EBB"
+        "image": "logos/jira.webp",
+        "title": "Jira",
+        "text": "Rapport d'anomalies",
+        "alt": "Jira logo",
+        "link": "#724"
+    },
+    {
+        "image": "logos/notion.png",
+        "title": "Notion",
+        "text": "Gestion de projet Agile, création d'un tableau Kanban, et rédaction de user stories",
+        "alt": "Notion logo",
+        "link": "#MMQ"
     },
     {
         "image": "logos/phpUnit.jpg",
@@ -57,26 +51,15 @@
     {
         "image": "logos/panther.jpeg",
         "title": "Symfony Panther",
-        "text": "Automatisation de tests E2E pour une application de gestion de revenus pour des salons de coiffure",
+        "text": "Automatisation de tests E2E",
         "alt": "Symfony Panther logo",
         "link": "#PD"
     },
     {
-        "image": "logos/html-css.webp",
-        "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
-        "alt": "HTML and CSS logos"
-    },
-    {
-        "image": "logos/js.webp",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires",
-        "alt": "Javascript logo"
-    },
-    {
-        "image": "react.webp",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état",
-        "alt": "React logo"
+        "image": "logos/cypress.webp",
+        "title": "Cypress",
+        "text": "Automatisation de tests E2E et d'API",
+        "alt": "Cypress logo",
+        "link": "#EBB"
     }
 ]

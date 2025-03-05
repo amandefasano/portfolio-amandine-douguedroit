@@ -5,8 +5,7 @@
 #portfolio,
 #experience,
 #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+    padding: 4rem 0;
 }
 
 #about h2,
@@ -24,6 +23,20 @@
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: #2e0218cc;
+}
+
+/* background dark color on certain sections */
+#skills,
+#portfolio
+ {
+    background-color: #2e0218cc;
+}
+
+/* white title on dark sections */
+#skills h2,
+#portfolio h2
+ {
+    color: white;
 }
 
 /* hero background image */
@@ -95,11 +108,11 @@
 }
 
 .card:hover .skillsIcon {
-    color: #2e0218cc;
+    color: #cc569b;
 }
 
 .skillsText:hover {
-    border: 1px solid #2e0218cc;
+    border: 2px solid #2e0218cc;
 }
 
 /* experience */
@@ -119,25 +132,50 @@
     border-color: #25ab90;
 }
 
+#experience .project-link:hover {
+    background-color: #26d3ae;
+    border-color: #26d3ae;
+}
+
 /* portfolio */
 #portfolio .project-link {
     background-color: #2e0218cc;
     border-color: #2e0218cc;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: 92%;
+}
+
+#portfolio .project-link:hover {
+    background-color: #87566e;
+    border-color: #87566e;
+}
+
+#portfolio .card {
+    height: 31rem;
 }
 
 /* targetted element */
-.card:target {
-    animation: flicker 3s ease-in-out 1;
+.card:target,
+#projects:target {
+    animation: flicker 5s ease-in-out 1;
 }
 
 @keyframes flicker {
-  0%  { border: 2px solid black; }
-  33% { border-color: transparent; }
-  66% { border: 2px solid black; }
+  0%  { border: 8px solid #cc569b; }
   100% { border-color: transparent; }
 }
 
 /* contact */
+#contact a {
+    color: #cc569b;
+}
+
+#contact a:hover {
+    color: #fb93bb;
+}
+
 .contactColumn {
     display: flex;
     flex-direction: column;

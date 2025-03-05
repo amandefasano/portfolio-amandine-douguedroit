@@ -67,6 +67,7 @@ function createPortfolioFromJSON() {
   const container = document.querySelector("#portfolio .container");
   let row = document.createElement("div");
   row.classList.add("row");
+  row.setAttribute("id", "projects")
 
   // Load the JSON file
   fetch("data/portfolio.json")
@@ -85,7 +86,7 @@ function createPortfolioFromJSON() {
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${html}</p>
                         <div class="div-project-link text-center">
-                            <a href="${item.link}" class="project-link btn btn-success">Lien</a>
+                            <a href="${item.link}" class="project-link btn btn-success" target=${item.target}>Lien</a>
                         </div>
                     </div>
                 </div>
@@ -103,13 +104,13 @@ function createPortfolioFromJSON() {
       });
 
       // Remove link when empty
-      let cards = document.getElementsByClassName("card portfolioContent");
-      for (let card of cards) {
-        const cardBody = card.children[1];
-        const divProjectLink = cardBody.children[2];
-        const projectLink = divProjectLink.children[0];
-        if (projectLink.getAttribute("href") === "#") cardBody.removeChild(divProjectLink);
-      }
+      // let cards = document.getElementsByClassName("card portfolioContent");
+      // for (let card of cards) {
+      //   const cardBody = card.children[1];
+      //   const divProjectLink = cardBody.children[2];
+      //   const projectLink = divProjectLink.children[0];
+      //   if (projectLink.getAttribute("href") === "#") cardBody.removeChild(divProjectLink);
+      // }
     });
 }
 
