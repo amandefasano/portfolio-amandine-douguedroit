@@ -4,7 +4,7 @@
         "title": "724events",
         "text": "724events est un projet de site web d'événementiel\n\n • Exécution de tests manuels\n • Exécution de tests exploratoires\n • Rapport des anomalies avec Jira\n • Mise à jour du cahier de recette",
         "alt": "724events illustration",
-        "link": "#",
+        "link": "https://github.com/amandefasano/724events.git",
         "target": "_blank",
         "id": "724"
     },
@@ -13,7 +13,7 @@
         "title": "Eco Bliss Bath",
         "text": "Eco Bliss Bath est un projet de boutique en ligne de produits de beauté\n\n • Automatisation de tests E2E, fonctionnels et d'API avec Cypress\n • Exécution d'une campagne de test de validation\n • Rédaction et présentation du bilan de campagne de test",
         "alt": "Eco Bliss Bath logo",
-        "link": "https://github.com/amandefasano/TesteurLogiciel_Automatisez_des_tests_pour_une_boutique_en_ligne.git",
+        "link": "https://github.com/amandefasano/eco-bliss-bath.git",
         "target": "_blank",
         "id": "EBB"
     },
@@ -22,7 +22,7 @@
         "title": "Tomsen",
         "text": "Tomsen est un projet d'application de gestion financière pour particuliers\n\n • Revue des exigences\n • Conception de la stratégie de test\n • Conception du cahier de recette",
         "alt": "Tomsen illustration",
-        "link": "#",
+        "link": "https://github.com/amandefasano/tomsen.git",
         "target": "_blank",
         "id": "Tom"
     },
@@ -31,7 +31,7 @@
         "title": "Menu Maker by Qwenta",
         "text": "Menu Maker by Qwenta est un projet d'application de personnalisation de menu\n\n • Mise en place d'un système de veille\n • Définition des besoins techniques\n • Rédaction de user stories en approche Agile\n • Création d'un tableau Kanban pour organiser les tâches en sprint",
         "alt": "Qwenta illustration",
-        "link": "#",
+        "link": "https://github.com/amandefasano/menu-maker-by-qwenta.git",
         "target": "_blank",
         "id": "MMQ"
     },
