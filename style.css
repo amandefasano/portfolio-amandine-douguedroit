@@ -22,15 +22,17 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #2e0218cc;
+    background-color: #583546;
 }
 
 /* background dark color on certain sections */
 #skills,
 #portfolio
  {
-    background-color: #2e0218cc;
+    background-color: #583546;
 }
+
+/* #2e0218cc */
 
 /* white title on dark sections */
 #skills h2,
@@ -149,8 +151,8 @@
 
 /* portfolio */
 #portfolio .project-link {
-    background-color: #2e0218cc;
-    border-color: #2e0218cc;
+    background-color: #583546;
+    border-color: #583546;
 }
 
 #portfolio .project-link:hover {
@@ -195,7 +197,7 @@
 }
 
 .contactColumn i {
-    color: #2e0218cc;
+    color: #583546;
 }
 
 /* footer */
