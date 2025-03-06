@@ -86,7 +86,7 @@ function createPortfolioFromJSON() {
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${html}</p>
                         <div class="div-project-link text-center">
-                            <a href="${item.link}" class="project-link btn btn-success" target=${item.target}>Lien</a>
+                            <a href="${item.link}" class="project-link btn btn-success" target="_blank">Lien</a>
                         </div>
                     </div>
                 </div>
@@ -155,12 +155,6 @@ function createExperienceFromJSON() {
         }
       });
     });
-}
-
-function zoomImage() {
-  const image = document.querySelector("#Port img");
-
-  
 }
 
 // Call the functions to execute the code
