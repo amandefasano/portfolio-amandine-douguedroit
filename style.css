@@ -164,9 +164,10 @@
     height: 31rem;
 }
 
-.card {
+.card,
+#projects
+ {
     scroll-margin-top: 200px;
-
 }
 
 /* targetted element */
