@@ -78,6 +78,12 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+#fun-fact {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 18px;
+}
+
 /* skills */
 .skillsText.card {
     height: 350px;
