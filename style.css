@@ -175,14 +175,17 @@
 }
 
 .card,
-#projects
- {
+#projects,
+#web-dev,
+#QA {
     scroll-margin-top: 200px;
 }
 
 /* targetted element */
 .card:target,
-#projects:target {
+#projects:target,
+#web-dev:target,
+#QA:target {
     animation: flicker 2.5s linear 1;
 }
 
