@@ -45,3 +45,6 @@
     l'assurance qualité logicielle !<br>
     Apprenez-en plus en lisant la section <a href="#QA">Revirement de carrière !</a> ci-dessous. 👇🏻
 </p>
+
+Après avoir réorienté ma carrière vers la petite enfance, et travaillé en crèche quelques années, j'ai souhaité me rediriger vers le domaine du développement logiciel afin de 
+              préserver un meilleur équilibre entre ma vie personnelle et professionnelle.
