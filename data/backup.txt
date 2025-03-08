@@ -17,3 +17,31 @@
         "text": "Création d’applications React, création de composants et manipulation de leur état",
         "alt": "React logo"
     }
+
+<p>
+    S'il fallait définir ma carrière en deux mots, je dirais éclectique et passionnée !<br><br>
+    Après des études de théâtre, je suis entrée dans la vie professionnelle par la culture et l'accueil du public. Que ce soit en tant qu'ouvreuse dans un 
+    théâtre, que volontaire en service civique dans un centre culturel, ou qu'hôtesse d'accueil dans une salle d'escalade, j'ai allié mes passions à mes 
+    professions pour cultiver et développer mes compétences relationnelles et de communication.<br><br>
+    Puis je me suis formée au développement web, en parallèle d'avoir entamé une carrière dans la petite enfance. "Euh, comment ça ?" me direz-vous.<br>
+    J'ai suivi une formation certifiante de développeur web et web mobile de septembre 2020 à juin 2021, délivrée à l'époque par l'Ecole Pratique de 
+    Marseille. J'y ai appris toutes les bases du développement web back-end et front-end et plus encore. Dans le cadre de cette formation, j'ai effectué un 
+    stage dans l'entreprise ITSO technologies durant lequel il m'a été demandé de mettre en place des tests d'intégration. C'est au cours de cette expérience 
+    fortuite que j'ai découvert mon attrait pour les tests. A tel point que j'ai négligé la partie front-end du dossier de projet que je devais présenter au jury 
+    chargé de juger mes compétences pour l'obtention de la certification professionnelle, ce qui les a conduit à juger mes compétences en front-end insuffisantes.<br>
+    Je vous invite à en apprendre plus sur ma formation, et mon stage chez ITSO technologies en lisant la section <a href="#web-dev">Nouvelle orientation !</a> ci dessous. 👇🏻<br><br>
+    
+    Au cours de ma formation, j'ai fait de la garde d'enfant en péri-scolaire pour combler les fins de mois. Cette activité me procurait une très grande satisfaction. 
+    Suite à mon échec de l'obtention de la certification, je décide d'orienter ma carrière vers les métiers de la petite enfance. Je m'intéresse notamment aux pédagogies 
+    alternatives, et après avoir travaillé en crèche, j'obtiens un poste de guide Montessori pour des enfants âgés de 1 à 3 ans. Ce poste à haute responsibilité me permet 
+    d'évoluer professionnellement, et de développer ma capacité d'observation et mon attention au détail.<br> 
+    Plus de détails sur cette expérience enrichissante dans la section 
+    <a href="#early-childhood">Chapitre parallèle : ma carrière dans la petite enfance</a> ci-dessous. 👇🏻<br><br>
+    Après deux ans à occuper ce poste, je ressens le besoin d'obtenir un meilleur équilibre entre ma vie professionnelle et ma vie personnelle. Je procède alors à un revirement 
+    de carrière. Je me rappelle de la satisfaction que m'avaient procuré la mise en place de tests lors de mon stage chez ITSO technologies. Je me lance dès lors dans une formation 
+    certifiante de testeur logiciel délivrée par la plateforme d'éducation et de formation en ligne OpenClassrooms. Au milieu de ma formation, j'ai le plaisir d'intégrer l'équipe 
+    de PrettyData, une start-up qui développe une application de gestion de revenus pour des salons de beauté / coiffure américains, en tant que stagiaire en assurance qualité. 
+    La formation d'OpenClassrooms couplée à la pratique en entreprise me permettent d'acquérir des fondations solides de testeur logiciel, et de confirmer mon appétence accrue pour 
+    l'assurance qualité logicielle !<br>
+    Apprenez-en plus en lisant la section <a href="#QA">Revirement de carrière !</a> ci-dessous. 👇🏻
+</p>
