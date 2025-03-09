@@ -78,6 +78,11 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+summary {
+    font-weight: bold;
+    color: #583546;
+}
+
 #fun-fact {
     background-color: lightgray;
     padding: 10px;
