@@ -32,8 +32,6 @@
     background-color: #583546;
 }
 
-/* #2e0218cc */
-
 /* white title on dark sections */
 #skills h2,
 #portfolio h2
@@ -198,10 +196,10 @@ summary {
 #projects:target,
 #web-dev:target,
 #QA:target {
-    animation: flicker 2.5s linear 1;
+    animation: highlight 2.5s linear 1;
 }
 
-@keyframes flicker {
+@keyframes highlight {
   0%  { outline: 8px solid #cc569b; }
   80%  { outline: 8px solid #cc569b; }
   100% { outline-color: transparent; }
@@ -225,5 +223,3 @@ summary {
 .contactColumn i {
     color: #583546;
 }
-
-/* footer */

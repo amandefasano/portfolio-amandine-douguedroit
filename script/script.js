@@ -102,15 +102,6 @@ function createPortfolioFromJSON() {
           row.classList.add("row");
         }
       });
-
-      // Remove link when empty
-      // let cards = document.getElementsByClassName("card portfolioContent");
-      // for (let card of cards) {
-      //   const cardBody = card.children[1];
-      //   const divProjectLink = cardBody.children[2];
-      //   const projectLink = divProjectLink.children[0];
-      //   if (projectLink.getAttribute("href") === "#") cardBody.removeChild(divProjectLink);
-      // }
     });
 }
 
