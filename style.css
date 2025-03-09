@@ -41,6 +41,11 @@
     color: white;
 }
 
+/* Navbar */
+#nav-links .nav-link {
+    color: white;
+}
+
 /* hero background image */
 .bgimage {
     height: 100vh;
@@ -148,13 +153,15 @@ summary {
 }
 
 #experience .project-link {
-    background-color: #25ab90;
+    color: #146152;
+    background-color: white;
     border-color: #25ab90;
 }
 
 #experience .project-link:hover {
-    background-color: #26d3ae;
-    border-color: #26d3ae;
+    color: white;
+    background-color: #25ab90;
+    border-color: #25ab90;
 }
 
 .project-link {
@@ -202,7 +209,7 @@ summary {
 
 /* contact */
 #contact a {
-    color: #cc569b;
+    color: #952D6A;
 }
 
 #contact a:hover {
