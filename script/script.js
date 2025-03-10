@@ -49,15 +49,8 @@ function createSkillsFromJSON() {
                   </a>
                 `;
 
-        // Append the card to the current row
-        row.appendChild(card);
-
-        // If the index is a multiple of 3 or it's the last element, create a new row
-        if ((index + 1) % 3 === 0 || index === data.length - 1) {
-          container.appendChild(row);
-          row = document.createElement("div");
-          row.classList.add("row");
-        }
+        // Append the card to the container
+        appendCard(row, card, index, data, container);
       });
     });
 }
@@ -67,7 +60,7 @@ function createPortfolioFromJSON() {
   const container = document.querySelector("#portfolio .container");
   let row = document.createElement("div");
   row.classList.add("row");
-  row.setAttribute("id", "projects")
+  row.setAttribute("id", "projects");
 
   // Load the JSON file
   fetch("data/portfolio.json")
@@ -92,15 +85,8 @@ function createPortfolioFromJSON() {
                 </div>
                 `;
 
-        // Append the card to the current row
-        row.appendChild(card);
-
-        // If the index is a multiple of 3 or it's the last element, create a new row
-        if ((index + 1) % 3 === 0 || index === data.length - 1) {
-          container.appendChild(row);
-          row = document.createElement("div");
-          row.classList.add("row");
-        }
+        // Append the card to the container
+        appendCard(row, card, index, data, container);
       });
     });
 }
@@ -135,17 +121,19 @@ function createExperienceFromJSON() {
                 </div>
                 `;
 
-        // Append the card to the current row
-        row.appendChild(card);
-
-        // If the index is a multiple of 3 or it's the last element, create a new row
-        if ((index + 1) % 3 === 0 || index === data.length - 1) {
-          container.appendChild(row);
-          row = document.createElement("div");
-          row.classList.add("row");
-        }
+        // Append the card to the container
+        appendCard(row, card, index, data, container);
       });
     });
+}
+
+// Function to append the card to the container. If the index is a multiple of 3 or it's the last element, create a new row.
+function appendCard(row, card, index, data, container) {
+  row.appendChild(card);
+
+  if ((index + 1) % 3 === 0 || index === data.length - 1) {
+    container.appendChild(row);
+  }
 }
 
 // Call the functions to execute the code
