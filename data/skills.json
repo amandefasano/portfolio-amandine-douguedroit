@@ -2,7 +2,7 @@
     {
         "image": "skills/automation-testing.webp",
         "title": "Test",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
+        "text": "Tests exploratoires, unitaires et d’intégration, conception d’une stratégie de test et rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
         "alt": "Illustrative image with a chain of boxes",
         "link": "#projects"
     },
