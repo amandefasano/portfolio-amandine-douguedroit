@@ -81,10 +81,21 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-summary,
-#resume {
+summary {
     font-weight: bold;
     color: #583546;
+}
+
+#about .btn-success {
+    color: white;
+    background-color: #583546;
+    border-color: #583546;
+}
+
+#about .btn-success:hover {
+    color: #583546;
+    background-color: white;
+    border-color: #583546;
 }
 
 #fun-fact {
@@ -151,19 +162,19 @@ summary,
     margin-top: 60px;
 }
 
-#experience .project-link {
+#experience .btn-success {
     color: #146152;
     background-color: white;
     border-color: #25ab90;
 }
 
-#experience .project-link:hover {
+#experience .btn-success:hover {
     color: white;
     background-color: #25ab90;
     border-color: #25ab90;
 }
 
-.project-link {
+.link {
     position: absolute;
     bottom: 1rem;
     left: 1rem;
@@ -171,14 +182,15 @@ summary,
 }
 
 /* portfolio */
-#portfolio .project-link {
+#portfolio .btn-success {
     background-color: #583546;
     border-color: #583546;
 }
 
-#portfolio .project-link:hover {
-    background-color: #87566e;
-    border-color: #87566e;
+#portfolio .btn-success:hover {
+    color: #583546;
+    background-color: white;
+    border-color: #583546;
 }
 
 #portfolio .card {
